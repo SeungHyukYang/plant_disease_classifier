@@ -6,19 +6,21 @@ A binary classification project for predicting the presence of plant disease bas
 
 ## Project Structure
 
+```
 plant_disease_dataset/
 ├── data/
-│ └── plant_disease_dataset.csv
+│   └── plant_disease_dataset.csv
 ├── models/
-│ ├── logistic_model.py # Standard logistic regression
-│ ├── logistic_failed1.py # Logistic regression without stratify
-│ ├── logistic_balanced.py # Logistic regression with class_weight='balanced'
-│ ├── rf_model.py # RandomForest baseline
-│ ├── rf_with_smote.py # RandomForest with SMOTE
-│ ├── smote_experiments.py # SMOTE sampling strategy tuning
-│ └── xgb_model.py # XGBoost with scale_pos_weight
-├── utils.py # Data loading, splitting, scoring
-├── main.py # Main execution script
+│   ├── logistic_model.py         # Standard logistic regression
+│   ├── logistic_failed1.py       # Logistic regression without stratify
+│   ├── logistic_balanced.py      # Logistic regression with class_weight='balanced'
+│   ├── rf_model.py               # RandomForest baseline
+│   ├── rf_with_smote.py          # RandomForest with SMOTE
+│   ├── smote_experiments.py      # SMOTE sampling strategy tuning
+│   └── xgb_model.py              # XGBoost with scale_pos_weight
+├── utils.py                      # Data loading, splitting, scoring
+├── main.py                       # Main execution script
+```
 
 
 ---
